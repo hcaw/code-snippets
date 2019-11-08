@@ -1,3 +1,5 @@
+## tags: sed
+
 # Replace all instances of a regex inside a given file
 
 # MacOS (BSD-style `sed`)

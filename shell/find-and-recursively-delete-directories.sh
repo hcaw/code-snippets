@@ -1,3 +1,5 @@
+## tags: find
+
 # Disclaimer: This may only work in zsh!
 
 # Recursively delete all directories matching given pattern
