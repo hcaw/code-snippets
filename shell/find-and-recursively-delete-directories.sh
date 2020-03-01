@@ -1,7 +1,10 @@
 ## tags: find
 
-# Disclaimer: This may only work in zsh!
+# Recursively delete all directories matching given pattern (prune is necessary to stop recursing into deleted dirs!)
 
-# Recursively delete all directories matching given pattern
+find . -name 'directory_name' -type d -prune -exec rm -rf '{}' +
 
-find . -type d -name 'directory_name' -exec rm -r {} +
+# Extra:
+# If you need to remove `node_modules`, then you could use [this](https://github.com/voidcosmos/npkill)
+
+npx npkill
